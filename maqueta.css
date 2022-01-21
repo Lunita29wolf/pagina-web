@@ -1,0 +1,94 @@
+* {box-sizing: border-box; margin: 0;
+	font-family: Arial,sans-serif;}
+
+nav{background-color: palevioletred;
+	display: flex;
+	justify-content: space-around;
+	padding: 1%;
+	}
+
+nav a{color: white;
+	text-decoration: none;
+	text-shadow: 3px 3px 3px black;}
+
+nav a:hover {color: paleturquoise; font-weight: bold;}
+
+header {background-image:url(3.jpg);
+		padding: 100px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		justify-content: left;
+		text-align: center;
+		align-items: center;
+		text-shadow: 3px 3px 3px black;}
+
+header h1,h2{color:lightpink;
+			}
+/*Estilos de servicios*/
+#servicios{background-color: paleturquoise;
+			border: 5px dotted lightpink;}
+
+.titulo{color: mediumpurple;
+		font-style: italic;
+		text-align: center;
+		text-shadow: 2px 2px 2px black;
+		padding:10px ;}
+
+#contenedor-servicios{display: flex;
+					justify-content: space-around;}
+#izquierda,#derecha{width:40% ;
+					color: mediumpurple;}
+
+p{margin-bottom: 10px;}
+/*Estilos de Obras*/
+
+#obras{background-color: lightpink;}
+
+#contenedor-obras{display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;}
+
+.obra{border: 5px dotted mediumpurple;
+		width: 28%;
+		margin-bottom: 10px;}
+
+.obra img{width: 100%;
+		}
+
+/*Estilos del footer*/
+
+footer{background-color: grey;
+		padding: 20px;
+		align-items: center;
+		justify-content: center;}
+
+#contacto{border-top: 2px solid white;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;}
+
+#enlaces h2{font-weight: bold;
+			}
+#enlaces a{text-decoration: none;}
+#contacte{border: 2px solid rebeccapurple;}
+
+#contacto1 form{background-color: lightcyan;
+				border-radius: 10px;
+				padding: 20px;}
+
+#contacto1{padding-left: 100px;
+		padding-right: 100px;
+		}
+input{width: 100%; padding: 10px; 
+	border-radius: 10px;
+	margin-bottom: 10px;
+	border: 1px solid lightcyan;}
+
+
+label{width: 20%; display: block;
+	font-weight: bold;
+	color:lightpink;
+	font-size: 1.2em;}
